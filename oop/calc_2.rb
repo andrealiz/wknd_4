@@ -23,7 +23,7 @@ class SimpleCalculator
 
 end
 
-class FancyCalculator
+class FancyCalculator < SimpleCalculator
 
   def add(first_number, second_number)
     first_number + second_number
